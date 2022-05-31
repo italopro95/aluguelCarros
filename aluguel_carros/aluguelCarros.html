@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aluguel de Carros</title>
+    <script src="aluguelCarros.js"></script>
+
+    <style>
+
+        div {
+          width: 190px;
+        }
+
+        span {
+            width: 100%;
+            text-transform: uppercase;
+        }
+        
+    </style>
+</head>
+<body>
+        <div>
+            <span>Carros  populares 1:</span>
+            <span>Carros de luxo 2:</span>
+            <input type="number" name="opcao" id="opcao">
+            <span>Quantos dias voce ficou com o carro?</span>
+            <input type="number" name="dias" id="dias">
+            <span>Quantos Km voce rodou?</span>
+            <input type="number" name="km" id="km">
+        </div>
+        <input type="submit" name="" onclick="alugar()">
+
+   <h2 id="valor"></h2>
+     
+    
+</body>
+</html>
